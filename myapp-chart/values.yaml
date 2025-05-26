@@ -1,11 +1,11 @@
 webapp:
   image: sakthi909kanna/webapp
-  tag: "3"
+  tag: "4"
   port: 3000
 
 apiproxy:
   image: sakthi909kanna/apache-proxy
-  tag: "3"
+  tag: "4"
   port: 3001
   replicas: "4"
 
