@@ -1,0 +1,16 @@
+webapp:
+  image: sakthi909kanna/webapp
+  tag: "latest"
+  port: 3000
+
+apiproxy:
+  image: sakthi909kanna/apache-proxy
+  tag: "latest"
+  port: 3001
+
+mongo:
+  image: mongo
+  port: 27017
+  username: username
+  password: password
+  database: webappdb

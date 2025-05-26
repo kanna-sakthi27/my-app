@@ -1,0 +1,4 @@
+apiVersion: v2
+name: myapp
+description: A Helm chart for your multi-container app
+version: 0.1.0
