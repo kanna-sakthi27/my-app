@@ -7,6 +7,8 @@ apiproxy:
   image: sakthi909kanna/apache-proxy
   tag: "3"
   port: 3001
+  replicas: "1"
+
 
 mongo:
   image: mongo

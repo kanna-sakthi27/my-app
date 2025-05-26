@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: api
 spec:
-  replicas: 2
+  replicas: {{ .Values.apiproxy.replicas }}
   selector:
     matchLabels:
       app: api
